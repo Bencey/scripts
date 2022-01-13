@@ -41,5 +41,5 @@ mypattern1 = CustomMode(
 # Apply Mode
 strip.mode = mypattern1
 
-
+# This sends a remote command to a Raspberry pi that is linked up to a bluetooth speaker
 os.system('ssh ubuntu@IPAddress paplay /home/ubuntu/Downloads/alert1.ogg')
